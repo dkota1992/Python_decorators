@@ -1,7 +1,6 @@
 import os
 from datetime import datetime
-#Second Commit
-#This is second commmit
+#Commit in github
 
 def decorator_function(passed_function):
     def wrapper_function(*args, **kwargs):
