@@ -12,5 +12,3 @@ a.insert(17)
 a.insert(4)
 a.insert(9)
 a.insert(19)
-
-print(a.look(11)
