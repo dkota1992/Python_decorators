@@ -1,6 +1,6 @@
 from Node import TreeNode
 
-a = TreeNode(6)
+a = TreeNode()
 a.insert(11)
 a.insert(7)
 a.insert(12)
