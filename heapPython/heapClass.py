@@ -40,6 +40,7 @@ class myHeap(object):
         size = self.currentsize
         while index*2+2 < size:
             index =  self.maxNum(index)
+        
             
             
         

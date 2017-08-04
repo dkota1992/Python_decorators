@@ -4,7 +4,7 @@ import random
 input_array = []
 a = myHeap()
 for i in range(11):
-    in_val = random.randint(0,100)
+    in_val = random.randint(0,10)
     a.insert(in_val)
 
     input_array.append(in_val)
