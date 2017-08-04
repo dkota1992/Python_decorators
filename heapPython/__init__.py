@@ -3,8 +3,9 @@ import random
 
 input_array = []
 a = myHeap()
+a.insert(0)
 for i in range(11):
-    in_val = random.randint(0,10)
+    in_val = random.randint(0,100)
     a.insert(in_val)
 
     input_array.append(in_val)

@@ -41,6 +41,8 @@ class myHeap(object):
         while index*2+2 < size:
             index =  self.maxNum(index)
         
+        if index*2 + 1 == size -1 and self.array[index] < self.array[index*2+1]:
+            self.swap(index,index*2+1)
             
             
         
